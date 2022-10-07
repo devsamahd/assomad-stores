@@ -7,4 +7,4 @@
 ♂ HTML
 ♂ SASS
 ♂ Vanilla JS
-♂ D3.js
+♂ ChartJS
