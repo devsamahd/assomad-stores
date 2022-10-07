@@ -1,0 +1,10 @@
+$bg-main: #F6FAFB;
+$gradient: linear-gradient();
+$gradient: linear-gradient(315deg, rgba(254,172,94,1) 0%, rgba(199,121,208,1) 35%, rgba(75,192,200,1) 100%);
+$gradient-bg: rgb(254,172,94);
+$icon-grey: #8DA1A6;
+//mixin
+@mixin bg {
+    background: $gradient-bg;
+    background: $gradient;
+}
