@@ -1,5 +1,10 @@
+const getid = (id) => {
+    return document.getElementById(id)
+}
 d = new Date()
+
 const hour = d.getHours()
+const year = d.getYear()
 
 const greeting = () => {
     if(hour < 12 ){
@@ -11,5 +16,6 @@ const greeting = () => {
     }
 }
 
-document.getElementById('greeting').innerText = `Gud ${greeting()}, Samahd!`
+getid('greeting').innerText = `Gud ${greeting()}, Samahd!`
 
+ getid('footnote').innerHTML = `Developed with ❤️ by <a href="github.com/devsamahd">Samahd</a> &copy; ${year + 1900}`

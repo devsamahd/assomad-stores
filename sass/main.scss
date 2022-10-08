@@ -65,8 +65,15 @@ nav{
         background-clip: text;
         -text-fill-color: transparent;
         height: 48px;
-        border: 1px solid $icon-grey;
-      }
+        border-radius:10px;
+        border-image: $gradient 20;
+        border-width: 2px;
+        border-style: solid;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        -ms-border-radius:10px;
+        -o-border-radius:10px;
+}
     &:hover{
         background: linear-gradient(259deg, rgba(217,217,217,0) 0%, rgba(24, 91, 157, 0.096) 21%); 
         color: grey;
@@ -74,10 +81,15 @@ nav{
     
     
 }
+.footnote{
+    padding-top: 5%;
+    color: grey;
+    font-size: 12px;
+}
 .promo{
     height: 30vh;
     width: 23.5vw;
-    background-color: #b0bdc0;
+    background-color: #e9ecec;
     overflow-y: scroll;
     margin-top: 20px;
     border-radius: 20px;
@@ -102,8 +114,13 @@ nav{
         height: 70px;
         background-color: white;
         margin: 20px 0 10px 20px;
-        
-    }
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        background: $gradient;
+}
 }
 .div-2{
     padding: 30px 20px 0px 20px;
